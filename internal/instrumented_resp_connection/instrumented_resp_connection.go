@@ -3,9 +3,9 @@ package instrumented_resp_connection
 import (
 	"net"
 
-	resp_connection "github.com/codecrafters-io/redis-tester/internal/resp/connection"
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
-	"github.com/codecrafters-io/tester-utils/logger"
+	resp_connection "github.com/make-core/redis-tester/internal/resp/connection"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
+	"github.com/make-core/tester-utils/logger"
 )
 
 type InstrumentedRespConnection struct {

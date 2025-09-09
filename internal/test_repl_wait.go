@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
-	"github.com/codecrafters-io/redis-tester/internal/redis_executable"
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	"github.com/codecrafters-io/redis-tester/internal/test_cases"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
+	"github.com/make-core/redis-tester/internal/redis_executable"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	"github.com/make-core/redis-tester/internal/test_cases"
 
-	"github.com/codecrafters-io/tester-utils/logger"
-	testerutils_random "github.com/codecrafters-io/tester-utils/random"
-	"github.com/codecrafters-io/tester-utils/test_case_harness"
+	"github.com/make-core/tester-utils/logger"
+	testerutils_random "github.com/make-core/tester-utils/random"
+	"github.com/make-core/tester-utils/test_case_harness"
 )
 
 type WaitTest struct {

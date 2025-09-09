@@ -3,10 +3,10 @@ package internal
 import (
 	"strconv"
 
-	"github.com/codecrafters-io/redis-tester/internal/redis_executable"
-	"github.com/codecrafters-io/redis-tester/internal/test_cases"
-	testerutils_random "github.com/codecrafters-io/tester-utils/random"
-	"github.com/codecrafters-io/tester-utils/test_case_harness"
+	"github.com/make-core/redis-tester/internal/redis_executable"
+	"github.com/make-core/redis-tester/internal/test_cases"
+	testerutils_random "github.com/make-core/tester-utils/random"
+	"github.com/make-core/tester-utils/test_case_harness"
 )
 
 func testReplBindToCustomPort(stageHarness *test_case_harness.TestCaseHarness) error {

@@ -6,7 +6,7 @@ import (
 	"io"
 	"strconv"
 
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
 )
 
 func decodeBulkStringOrNil(reader *bytes.Reader) (resp_value.Value, error) {

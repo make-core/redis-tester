@@ -5,13 +5,13 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/codecrafters-io/redis-tester/internal/data_structures/location"
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	"github.com/codecrafters-io/tester-utils/logger"
-	testerutils_random "github.com/codecrafters-io/tester-utils/random"
-	"github.com/codecrafters-io/tester-utils/testing"
+	"github.com/make-core/redis-tester/internal/data_structures/location"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	"github.com/make-core/tester-utils/logger"
+	testerutils_random "github.com/make-core/tester-utils/random"
+	"github.com/make-core/tester-utils/testing"
 )
 
 type GeoPosTestCase struct {

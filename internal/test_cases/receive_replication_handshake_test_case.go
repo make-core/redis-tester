@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
-	resp_encoder "github.com/codecrafters-io/redis-tester/internal/resp/encoder"
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	"github.com/codecrafters-io/tester-utils/logger"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
+	resp_encoder "github.com/make-core/redis-tester/internal/resp/encoder"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	"github.com/make-core/tester-utils/logger"
 )
 
 // ReceiveReplicationHandshakeTestCase is a test case where we connect to a master

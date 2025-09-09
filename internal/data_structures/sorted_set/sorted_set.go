@@ -3,7 +3,7 @@ package sorted_set
 import (
 	"sort"
 
-	testerutils_random "github.com/codecrafters-io/tester-utils/random"
+	testerutils_random "github.com/make-core/tester-utils/random"
 )
 
 type SortedSetMember struct {

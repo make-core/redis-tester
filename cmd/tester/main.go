@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/codecrafters-io/redis-tester/internal"
+	"github.com/make-core/redis-tester/internal"
 )
 
 func main() {

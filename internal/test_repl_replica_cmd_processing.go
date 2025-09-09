@@ -5,13 +5,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
-	"github.com/codecrafters-io/redis-tester/internal/redis_executable"
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	"github.com/codecrafters-io/redis-tester/internal/test_cases"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
+	"github.com/make-core/redis-tester/internal/redis_executable"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	"github.com/make-core/redis-tester/internal/test_cases"
 
-	"github.com/codecrafters-io/tester-utils/test_case_harness"
+	"github.com/make-core/tester-utils/test_case_harness"
 )
 
 func testReplCmdProcessing(stageHarness *test_case_harness.TestCaseHarness) error {
@@ -83,7 +83,7 @@ func testReplCmdProcessing(stageHarness *test_case_harness.TestCaseHarness) erro
 	logger.UpdateLastSecondaryPrefix("test")
 	replicaClient.UpdateBaseLogger(logger)
 	// Add a small delay to wait for commands to be propagated
-	// This was done in https://github.com/codecrafters-io/redis-tester/pull/212 to adjust fixtures
+	// This was done in https://github.com/make-core/redis-tester/pull/212 to adjust fixtures
 	// when fixtures are recorded from docker container
 	time.Sleep(time.Millisecond)
 

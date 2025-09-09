@@ -3,12 +3,12 @@ package internal
 import (
 	"fmt"
 
-	"github.com/codecrafters-io/redis-tester/internal/redis_executable"
+	"github.com/make-core/redis-tester/internal/redis_executable"
 
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	"github.com/codecrafters-io/redis-tester/internal/test_cases"
-	"github.com/codecrafters-io/tester-utils/random"
-	"github.com/codecrafters-io/tester-utils/test_case_harness"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	"github.com/make-core/redis-tester/internal/test_cases"
+	"github.com/make-core/tester-utils/random"
+	"github.com/make-core/tester-utils/test_case_harness"
 )
 
 func testTxErr(stageHarness *test_case_harness.TestCaseHarness) error {

@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"testing"
 
-	tester_utils_testing "github.com/codecrafters-io/tester-utils/testing"
+	tester_utils_testing "github.com/make-core/tester-utils/testing"
 )
 
 func TestStages(t *testing.T) {

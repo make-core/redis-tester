@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	"github.com/codecrafters-io/tester-utils/logger"
 	rdb_parser "github.com/hdt3213/rdb/parser"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	"github.com/make-core/tester-utils/logger"
 )
 
 // SendReplicationHandshakeTestCase is a test case where we connect to a master

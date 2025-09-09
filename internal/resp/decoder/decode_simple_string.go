@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
 )
 
 func decodeSimpleString(reader *bytes.Reader) (resp_value.Value, error) {

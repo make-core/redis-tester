@@ -3,10 +3,10 @@ package test_cases
 import (
 	"fmt"
 
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	logger "github.com/codecrafters-io/tester-utils/logger"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	logger "github.com/make-core/tester-utils/logger"
 )
 
 type ReceiveValueTestCase struct {

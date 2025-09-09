@@ -2,7 +2,7 @@
 package internal
 
 import (
-	testerutils "github.com/codecrafters-io/tester-utils"
+	testerutils "github.com/make-core/tester-utils"
 )
 
 func RunCLI(env map[string]string) int {

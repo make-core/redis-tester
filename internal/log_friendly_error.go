@@ -3,7 +3,7 @@ package internal
 import (
 	"strings"
 
-	"github.com/codecrafters-io/tester-utils/logger"
+	"github.com/make-core/tester-utils/logger"
 )
 
 func logFriendlyError(logger *logger.Logger, err error) {

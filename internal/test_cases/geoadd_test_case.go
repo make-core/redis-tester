@@ -1,10 +1,10 @@
 package test_cases
 
 import (
-	location_ds "github.com/codecrafters-io/redis-tester/internal/data_structures/location"
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	"github.com/codecrafters-io/tester-utils/logger"
+	location_ds "github.com/make-core/redis-tester/internal/data_structures/location"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	"github.com/make-core/tester-utils/logger"
 )
 
 type GeoAddTestCase struct {

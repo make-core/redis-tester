@@ -3,7 +3,7 @@ package resp_assertions
 import (
 	"fmt"
 
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
 )
 
 // OrderedArrayAssertion : Order of the actual and expected values matters.

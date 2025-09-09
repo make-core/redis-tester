@@ -3,10 +3,10 @@ package test_cases
 import (
 	"strconv"
 
-	"github.com/codecrafters-io/redis-tester/internal/data_structures/sorted_set"
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
-	"github.com/codecrafters-io/redis-tester/internal/resp_assertions"
-	"github.com/codecrafters-io/tester-utils/logger"
+	"github.com/make-core/redis-tester/internal/data_structures/sorted_set"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
+	"github.com/make-core/redis-tester/internal/resp_assertions"
+	"github.com/make-core/tester-utils/logger"
 )
 
 type ZaddTestCase struct {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/codecrafters-io/redis-tester/internal/resp/formatter"
+	"github.com/make-core/redis-tester/internal/resp/formatter"
 )
 
 const (

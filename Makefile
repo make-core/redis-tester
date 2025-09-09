@@ -4,7 +4,7 @@ current_version_number := $(shell git tag --list "v*" | sort -V | tail -n 1 | cu
 next_version_number := $(shell echo $$(($(current_version_number)+1)))
 
 docs:
-	(sleep 0.5 && open http://localhost:6060/pkg/github.com/codecrafters-io/redis-tester/internal/)
+	(sleep 0.5 && open http://localhost:6060/pkg/github.com/make-core/redis-tester/internal/)
 	godoc -http=:6060
 
 release:
@@ -27,7 +27,7 @@ record_fixtures:
 	CODECRAFTERS_RECORD_FIXTURES=true make test
 
 update_tester_utils:
-	go get -u github.com/codecrafters-io/tester-utils
+	go get -u github.com/make-core/tester-utils
 
 TEST_TARGET ?= test
 RUNS ?= 100

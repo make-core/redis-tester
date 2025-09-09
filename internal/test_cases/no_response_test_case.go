@@ -3,7 +3,7 @@ package test_cases
 import (
 	"fmt"
 
-	"github.com/codecrafters-io/redis-tester/internal/instrumented_resp_connection"
+	"github.com/make-core/redis-tester/internal/instrumented_resp_connection"
 )
 
 type NoResponseTestCase struct{}

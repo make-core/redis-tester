@@ -5,9 +5,9 @@ import (
 	"path"
 	"strings"
 
-	executable "github.com/codecrafters-io/tester-utils/executable"
-	logger "github.com/codecrafters-io/tester-utils/logger"
-	"github.com/codecrafters-io/tester-utils/test_case_harness"
+	executable "github.com/make-core/tester-utils/executable"
+	logger "github.com/make-core/tester-utils/logger"
+	"github.com/make-core/tester-utils/test_case_harness"
 )
 
 type RedisExecutable struct {

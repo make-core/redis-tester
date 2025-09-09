@@ -3,7 +3,7 @@ package resp_assertions
 import (
 	"fmt"
 
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
 )
 
 type NilAssertion struct{}

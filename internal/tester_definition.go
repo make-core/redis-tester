@@ -3,7 +3,7 @@ package internal
 import (
 	"time"
 
-	"github.com/codecrafters-io/tester-utils/tester_definition"
+	"github.com/make-core/tester-utils/tester_definition"
 )
 
 var testerDefinition = tester_definition.TesterDefinition{

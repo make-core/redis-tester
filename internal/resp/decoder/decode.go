@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
 )
 
 func Decode(data []byte) (value resp_value.Value, readBytesCount int, err error) {

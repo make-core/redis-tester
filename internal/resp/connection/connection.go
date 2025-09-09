@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	resp_decoder "github.com/codecrafters-io/redis-tester/internal/resp/decoder"
-	resp_encoder "github.com/codecrafters-io/redis-tester/internal/resp/encoder"
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
+	resp_decoder "github.com/make-core/redis-tester/internal/resp/decoder"
+	resp_encoder "github.com/make-core/redis-tester/internal/resp/encoder"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
 )
 
 type RespConnectionCallbacks struct {

@@ -183,7 +183,7 @@ stages:
     marketing_md: |-
       In this stage, you'll start a TCP server on port 6379, which is the
       default port that Redis uses.
-    tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_bind.go#L11"
+    tester_source_code_url: "https://github.com/make-core/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_bind.go#L11"
 
   - slug: "rg2"
     concept_slugs:
@@ -235,7 +235,7 @@ stages:
       In this stage, you'll respond to the
       [PING](https://redis.io/commands/ping) command. You'll use [the Redis
       protocol](https://redis.io/topics/protocol) to encode the reply.
-    tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L9"
+    tester_source_code_url: "https://github.com/make-core/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L9"
 
   - slug: "wy1"
     concept_slugs:
@@ -291,7 +291,7 @@ stages:
     marketing_md: |-
       In this stage, you'll respond to multiple
       [PING](https://redis.io/commands/ping) commands sent by the same client.
-    tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L35"
+    tester_source_code_url: "https://github.com/make-core/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L35"
 
   - slug: "zu2"
     concept_slugs:
@@ -351,7 +351,7 @@ stages:
       Redis server. To achieve this you'll use an [Event
       Loop](https://en.wikipedia.org/wiki/Event_loop),
       like the official Redis implementation does.
-    tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L56"
+    tester_source_code_url: "https://github.com/make-core/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_ping_pong.go#L56"
 
   - slug: "qq0"
     name: "Implement the ECHO command"
@@ -398,7 +398,7 @@ stages:
       [ECHO](https://redis.io/commands/echo) command. You'll parse user input
       according to the [the Redis protocol
       specification](https://redis.io/topics/protocol).
-    tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_echo.go#L11"
+    tester_source_code_url: "https://github.com/make-core/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_echo.go#L11"
 
   - slug: "la7"
     name: "Implement the SET & GET commands"
@@ -452,7 +452,7 @@ stages:
       In this stage, you'll need to implement the
       [SET](https://redis.io/commands/set) &
       [GET](https://redis.io/commands/get) commands.
-    tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_get_set.go#L11"
+    tester_source_code_url: "https://github.com/make-core/redis-tester/blob/a58b9d58b33870fe26a164c0e323f809275a7250/internal/test_get_set.go#L11"
 
   - slug: "yz1"
     name: "Expiry"
@@ -512,7 +512,7 @@ stages:
       In this stage, you'll add support for setting a key with an expiry. The
       expiry is provided using the "PX" argument to the
       [SET](https://redis.io/commands/set) command.
-    tester_source_code_url: "https://github.com/codecrafters-io/redis-tester/blob/master/internal/test_expiry.go"
+    tester_source_code_url: "https://github.com/make-core/redis-tester/blob/master/internal/test_expiry.go"
 
   # Persistence
 
@@ -1400,7 +1400,7 @@ stages:
       For the purposes of this challenge, you don't have to actually construct an RDB file. We'll assume that the master's database is always empty,
       and just hardcode an empty RDB file to send to the replica.
 
-      You can find the hex representation of an empty RDB file [here](https://github.com/codecrafters-io/redis-tester/blob/main/internal/assets/empty_rdb_hex.md).
+      You can find the hex representation of an empty RDB file [here](https://github.com/make-core/redis-tester/blob/main/internal/assets/empty_rdb_hex.md).
 
       The tester will accept any valid RDB file that is empty, you don't need to send the exact file above.
 
@@ -1431,7 +1431,7 @@ stages:
 
       ### Notes
 
-      - The [RDB file link](https://github.com/codecrafters-io/redis-tester/blob/main/internal/assets/empty_rdb_hex.md) contains hex & base64 representations
+      - The [RDB file link](https://github.com/make-core/redis-tester/blob/main/internal/assets/empty_rdb_hex.md) contains hex & base64 representations
         of the file. You need to decode these into binary contents before sending it to the replica.
       - The RDB file should be sent like this: `$<length>\r\n<contents>`
         - `<length>` is the length of the file in bytes

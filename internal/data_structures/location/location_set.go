@@ -1,7 +1,7 @@
 package location
 
 import (
-	"github.com/codecrafters-io/tester-utils/random"
+	"github.com/make-core/tester-utils/random"
 )
 
 type LocationSet struct {

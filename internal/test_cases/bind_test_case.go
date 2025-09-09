@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/codecrafters-io/redis-tester/internal/redis_executable"
-	"github.com/codecrafters-io/tester-utils/logger"
+	"github.com/make-core/redis-tester/internal/redis_executable"
+	"github.com/make-core/tester-utils/logger"
 )
 
 type BindTestCase struct {

@@ -1,9 +1,9 @@
 package internal
 
 import (
-	"github.com/codecrafters-io/redis-tester/internal/redis_executable"
-	"github.com/codecrafters-io/redis-tester/internal/test_cases"
-	"github.com/codecrafters-io/tester-utils/test_case_harness"
+	"github.com/make-core/redis-tester/internal/redis_executable"
+	"github.com/make-core/redis-tester/internal/test_cases"
+	"github.com/make-core/tester-utils/test_case_harness"
 )
 
 func testBindToPort(stageHarness *test_case_harness.TestCaseHarness) error {

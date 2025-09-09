@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sort"
 
-	resp_value "github.com/codecrafters-io/redis-tester/internal/resp/value"
+	resp_value "github.com/make-core/redis-tester/internal/resp/value"
 )
 
 // UnorderedStringArrayAssertion : Order of the actual and expected values doesn't matter.
