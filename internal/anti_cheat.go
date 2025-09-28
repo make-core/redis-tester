@@ -42,4 +42,5 @@ func antiCheatTest(stageHarness *test_case_harness.TestCaseHarness) error {
 	// } else {
 	// 	return nil
 	// }
+	return nil
 }
