@@ -1,4 +1,4 @@
-# Redis Challenge Tester #2
+# Redis Challenge Tester
 
 This is a program that validates your progress on the Redis challenge.
 
