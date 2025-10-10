@@ -14,7 +14,7 @@ var testerDefinition = tester_definition.TesterDefinition{
 	// 	},
 	// },
 	ExecutableFileName:       "start.sh",
-	LegacyExecutableFileName: "spawn_redis_server.sh",
+	LegacyExecutableFileName: "start.sh",
 	TestCases: []tester_definition.TestCase{
 		// Base stages
 		{
