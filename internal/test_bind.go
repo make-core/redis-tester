@@ -1,6 +1,9 @@
 package internal
 
 import (
+	"fmt"
+	"time"
+
 	"github.com/make-core/redis-tester/internal/redis_executable"
 	"github.com/make-core/redis-tester/internal/test_cases"
 	"github.com/make-core/tester-utils/test_case_harness"
@@ -11,6 +14,9 @@ func testBindToPort(stageHarness *test_case_harness.TestCaseHarness) error {
 	if err := b.Run(); err != nil {
 		return err
 	}
+
+	fmt.Println("Sleeping for 10 seconds")
+	time.Sleep(10 * time.Second)
 
 	logger := stageHarness.Logger
 
