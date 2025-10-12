@@ -20,7 +20,7 @@ var testerDefinition = tester_definition.TesterDefinition{
 		{
 			Slug:     "jm1",
 			TestFunc: testBindToPort,
-			Timeout:  105 * time.Second,
+			Timeout:  15 * time.Second,
 		},
 		{
 			Slug:     "rg2",
