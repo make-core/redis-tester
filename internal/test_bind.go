@@ -15,8 +15,8 @@ func testBindToPort(stageHarness *test_case_harness.TestCaseHarness) error {
 		return err
 	}
 
-	fmt.Println("Sleeping for 1000 seconds")
-	time.Sleep(1000 * time.Second)
+	fmt.Println("Sleeping for 100 seconds")
+	time.Sleep(100 * time.Second)
 
 	logger := stageHarness.Logger
 
