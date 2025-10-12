@@ -7,12 +7,12 @@ import (
 )
 
 var testerDefinition = tester_definition.TesterDefinition{
-	// AntiCheatTestCases: []tester_definition.TestCase{
-	// 	{
-	// 		Slug:     "anti-cheat-1",
-	// 		TestFunc: antiCheatTest,
-	// 	},
-	// },
+	AntiCheatTestCases: []tester_definition.TestCase{
+		{
+			Slug:     "anti-cheat-1",
+			TestFunc: antiCheatTest,
+		},
+	},
 	ExecutableFileName:       "start.sh",
 	LegacyExecutableFileName: "start.sh",
 	TestCases: []tester_definition.TestCase{
